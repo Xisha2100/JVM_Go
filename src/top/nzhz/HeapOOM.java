@@ -1,5 +1,5 @@
 package top.nzhz;
-
+//VM_Args:-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
 import java.util.ArrayList;
 import java.util.List;
 

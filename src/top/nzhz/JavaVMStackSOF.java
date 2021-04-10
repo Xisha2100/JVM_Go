@@ -1,5 +1,5 @@
 package top.nzhz;
-
+//VM_Args:-Xss136k
 public class JavaVMStackSOF {
     private int stackLength = 1;
 
