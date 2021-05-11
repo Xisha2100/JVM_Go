@@ -12,7 +12,7 @@ public class JavaMethodAreaOOM {
 
     public static void main(String[] args) {
         while (true) {
-            Enhancer enhancer = new Enhancer();
+            var enhancer = new Enhancer();
             enhancer.setSuperclass(OOMObject.class);
             enhancer.setUseCache(false);
             enhancer.setCallback(new MethodInterceptor() {

@@ -9,7 +9,7 @@ public class JavaVMStackSOF {
     }
 
     public static void main(String[] args) throws Throwable{
-        JavaVMStackSOF oom = new JavaVMStackSOF();
+        var oom = new JavaVMStackSOF();
         try {
             oom.stackLeak();
         }catch (Throwable e){
